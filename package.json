@@ -1,0 +1,27 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "the first code written in node server",
+  "main": "basic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilio-kariuki/node.git"
+  },
+  "keywords": [
+    "emilio"
+  ],
+  "author": "emilio kariuki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilio-kariuki/node/issues"
+  },
+  "homepage": "https://github.com/emilio-kariuki/node#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongodb": "^4.5.0",
+    "mongoose": "^6.2.10"
+  }
+}
