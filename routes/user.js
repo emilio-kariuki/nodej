@@ -6,7 +6,7 @@ const User = require("../models/user.model");
 
 
 
-router.route("/register").post((req, res) => {
+router.post('/register',(req, res) => {
   console.log("Register function");
   const user = new User({
     name: req.body.name,
