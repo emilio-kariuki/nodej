@@ -4,7 +4,8 @@
   "description": "the first code written in node server",
   "main": "basic.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start" : "node index",
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   "dependencies": {
     "express": "^4.17.3",
     "mongodb": "^4.5.0",
-    "mongoose": "^6.2.10"
+    "mongoose": "^6.2.10",
+    "nodemon": "^2.0.15"
   }
 }
