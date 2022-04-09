@@ -6,7 +6,7 @@ const port = process.env.PORT || 5000;
 app.use(express.json());
 
 mongoose.connect(
-    mongodb+srv://emilio:0722937438@cluster0.xdlrq.mongodb.net/myFirstDatabase,
+    "mongodb+srv://emilio:0722937438@cluster0.xdlrq.mongodb.net/myFirstDatabase",
     {useNewUrlParser: true, useUnifiedTopology: true}
   );
   
