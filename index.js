@@ -1,12 +1,12 @@
 const express = require('express');
 const mongoose = require('mongoose');
-
+require('dotenv').config();
 const app = express();
 const port = process.env.port || 5000;
 app.use(express.json());
 
 mongoose.connect(
-    "mongodb+srv://emilio:0722937438@cluster0.xdlrq.mongodb.net/myFirstDatabase?retryWrites=true",
+    process.env.DATABASE,
     {useNewUrlParser: true, useUnifiedTopology: true}
   );
   

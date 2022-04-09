@@ -4,7 +4,7 @@
   "description": "the first code written in node server",
   "main": "basic.js",
   "scripts": {
-    "start" : "node index",
+    "start": "node index",
     "dev": "nodemon index"
   },
   "repository": {
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/emilio-kariuki/node#readme",
   "dependencies": {
+    "dotenv": "^16.0.0",
     "express": "^4.17.3",
     "mongodb": "^4.5.0",
     "mongoose": "^6.2.10",
